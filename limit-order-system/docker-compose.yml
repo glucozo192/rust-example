@@ -1,7 +1,7 @@
 version: '1'
 services:
   api:
-    image: letsgetrusty/api-example
+    image: glu/limit-order-system
     environment:
       DATABASE_URL: "postgres://postgres:${POSTGRES_PASSWORD}@db:5432"
     build:
